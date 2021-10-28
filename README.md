@@ -1,4 +1,4 @@
-# AtliQ - Sales Insights Data Analysis
+# AtliQ - Sales Insights Data Analysis - Power BI
 
 ## ETL
 - Extract
