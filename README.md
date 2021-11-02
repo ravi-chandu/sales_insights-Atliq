@@ -91,14 +91,20 @@ Here I created some measures to get what I needed
 
 *In this whole Dashboard majority of time I spent on this topic - after learning and practicing many tutorials I finally made it, how I wanted❤️*
 
-1) Creating "others" in customers column 
-```
+
+1) First of all we need to create "others" in the customers list <br>
+
+  Creating "others" in customers column 
+  
+```DAX
 customers names = 
 UNION(
     ALLNOBLANKROW('sales customers'[custmer_name]),
     {"others"}
 )
 ```
+
+Here we added others in the cutomers list
 
 <br/>
 
